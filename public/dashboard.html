@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau de Bord</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tableau de Bord</h1>
+    <button id="theme-toggle">🌙 Mode sombre</button>
+    <form id="goal-form">
+      <input type="text" id="goal-description" placeholder="Ajoutez un objectif (ex. Faire du sport)" required>
+      <button type="submit">Ajouter</button>
+    </form>
+    <div class="progress-bar">
+      <div class="progress" id="progress"></div>
+    </div>
+    <table id="goals-table">
+      <thead>
+        <tr>
+          <th>Objectif</th>
+          <th>Lun</th>
+          <th>Mar</th>
+          <th>Mer</th>
+          <th>Jeu</th>
+          <th>Ven</th>
+          <th>Sam</th>
+          <th>Dim</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="badges" id="badges"></div>
+    <div class="message" id="message"></div>
+    <a href="index.html" onclick="localStorage.removeItem('userId'); localStorage.removeItem('email')">Déconnexion</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

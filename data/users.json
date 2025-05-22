@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1744224645840",
+    "name": "Ali",
+    "email": "ali@gmail.com",
+    "password": "$2b$10$ncmcJAcG.YLLVWlRudbI7u4hriekj0iGej1O.VA9TKP8.Q7B9ykzu",
+    "totalCheckedDays": 0
+  },
+  {
+    "id": "1744225190698",
+    "name": "Eunice",
+    "email": "eunice@gmail.com",
+    "password": "$2b$10$Vt.Xe0ueNVzlP2fssU5DIulS9O.hB6CLFAOEObIvAi3jPbF24weNq",
+    "totalCheckedDays": 4
+  },
+  {
+    "id": "1744268450457",
+    "name": "Moussa",
+    "email": "moussa@gmail.com",
+    "password": "$2b$10$7ZGnRtlZgZFKNVt/BbsUxuHTaeYP.SCaxIsnOLHk6VnBK9XZ67wHe",
+    "totalCheckedDays": 5
+  }
+]
